@@ -1,0 +1,63 @@
+{
+  "critical_files": [
+    "src/check_system.py",
+    "src/verify_core.py",
+    "src/pre_submit_gate.py",
+    "src/policy_gate.py",
+    "src/ship.py",
+    "src/figlint.py",
+    "src/run_preship_qa.py",
+    "src/verify_assets.py",
+    "src/env_boot.py",
+    "src/external_review_gate.py"
+  ],
+  "files": {
+    "src/check_system.py": {
+      "baseline_sha256": "f18ec7d1731b95017f6b772f2f77eadc18788d70cebe228f1856cf2f92d2fd08",
+      "review": null
+    },
+    "src/verify_core.py": {
+      "baseline_sha256": "ec24c62a183269661ee5b8cf8857dc694b11753a5a67ad163687f5fb4163fb4c",
+      "review": null
+    },
+    "src/pre_submit_gate.py": {
+      "baseline_sha256": "1b8c14996fa3c729fd77df7cbd76f10e906d9c74139e69d3b832b010c585a846",
+      "review": null
+    },
+    "src/policy_gate.py": {
+      "baseline_sha256": "c1029e1b656f539b2d8b405016e26fec4a9dd04ad3be6f0eaffd271e05d5c9aa",
+      "review": null
+    },
+    "src/ship.py": {
+      "baseline_sha256": "7c85f5a874cd17259704cc859297499eff94dd74505a9867e0834d4976d4cb3c",
+      "review": null
+    },
+    "src/figlint.py": {
+      "baseline_sha256": "40a8f54a33d312d7f4766d8f099d6737318fec6e3f05233b1c8c96cbf7eefe4b",
+      "review": null
+    },
+    "src/run_preship_qa.py": {
+      "baseline_sha256": "bc4cf28117da771acb61361058de0145963021ef9a530227949b0df86e0c9077",
+      "review": null
+    },
+    "src/verify_assets.py": {
+      "baseline_sha256": "a4af16dcd5d39315e342bab16074667f9aca8ff8dbb70a161d970378ca5ef986",
+      "review": null
+    },
+    "src/env_boot.py": {
+      "baseline_sha256": "cb5a48b50715ad166c76f29ad7a421bc3950affb52616cd97aba6478471063b8",
+      "review": {
+        "verdict": "GO",
+        "reviewed_sha256": "cb5a48b50715ad166c76f29ad7a421bc3950affb52616cd97aba6478471063b8",
+        "model": "GPT-5.6 Sol / Gemini Pro",
+        "reviewers": [],
+        "record": "src/checkdata/external_reviews/2026-08-15_env_boot_BOTH_GO.md",
+        "reviewed_at": "2026-08-16"
+      }
+    },
+    "src/external_review_gate.py": {
+      "baseline_sha256": "7b50e7be712be309c0c3cec928556b510d3ee82f3dd5ef70aa4cc6b81493d235",
+      "review": null
+    }
+  }
+}

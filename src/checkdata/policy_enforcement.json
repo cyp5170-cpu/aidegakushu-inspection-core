@@ -1,0 +1,105 @@
+{
+  "_doc": "方針(メモリ/MD)を『記録止まり』にせず、各方針に必ず decision を持たせる強制簿。2026-08-15新設。policy_gate.pyが評価しcheck_systemで毎回走る＝セッション変更/ライブ速度でも貫通(経路上の強制)。decision空=未決定=FAIL(人が決めるまで緑にしない)。codify宣言なのに未実装かつ期限切れ=FAIL(有言不実行を許さない)。record_only/deferは人の明示決定として許容(ログ)。何がcriticalかを決め印を付けるのは人(委譲不能・トラストアンカー)。",
+  "_decision_values": "codify | record_only | defer | '' (未決定=FAIL)",
+  "policies": [
+    {
+      "id": "image-text-mechanism-conflict",
+      "source": "memory:feedback_figure_label_card_dedup / 正本#A-8 / medcheck(Wolff-Chaikoff)",
+      "summary": "画像が描く機構と台詞の機構が矛盾したら出荷不可(ep02実事故)",
+      "criticality": "critical",
+      "decision": "codify",
+      "enforced_by": "pre_submit_gate:check_image_text_conflict(A-8)",
+      "due": "",
+      "decided_by": "user+claude", "decided_at": "2026-08-15",
+      "note": "checkdata/image_text_conflict.json + self-test + check_system連動で稼働中"
+    },
+    {
+      "id": "asset-freshness-drift",
+      "source": "設計書 / verify_core・verify_assets",
+      "summary": "台本/画像/ルールが変わったら派生物を要再検証(stale=UNKNOWN)にし、確認済みを無効化",
+      "criticality": "critical",
+      "decision": "codify",
+      "enforced_by": "verify_core(複合指紋) + verify_assets(実表示物照合)",
+      "due": "",
+      "decided_by": "user+claude", "decided_at": "2026-08-15",
+      "note": "複合指紋=SoT+asset+ruleset+verifier版。self-testはcheck_system連動"
+    },
+    {
+      "id": "line-id-sequence",
+      "source": "正本#音声地雷 / pre_submit_gate A-5",
+      "summary": "行id=NV番号の連番契約(逆行/重複禁止)＝音声/字幕ズレ防止",
+      "criticality": "critical",
+      "decision": "codify",
+      "enforced_by": "pre_submit_gate:check_line_id_sequence(A-5)",
+      "due": "",
+      "decided_by": "user+claude", "decided_at": "2026-08-15",
+      "note": "稼働中"
+    },
+    {
+      "id": "unverified-not-ignorable",
+      "source": "設計書§4-Q(d) / 認識論的責任の洗浄への対処",
+      "summary": "未検証はOK/無視可能にせずUNKNOWNとして人へ回す。機械は正しいと言わない",
+      "criticality": "critical",
+      "decision": "codify",
+      "enforced_by": "verify_assets(UNKNOWN表示・PASSは正しさ保証でない) + 人のサインオフ",
+      "due": "",
+      "decided_by": "user+claude", "decided_at": "2026-08-15",
+      "note": "verify_assetsが未確認/staleを表出。最終GO/NO-GOは人"
+    },
+    {
+      "id": "no-cinematic-images",
+      "source": "memory:feedback_no_cinematic_learning_images / 正本(2026-08-11)",
+      "summary": "資料画像はシネマ調AIをやめ、明快・正確な学習用図(Servier/PubChem/コード描画/シンプル比喩)に",
+      "criticality": "critical",
+      "decision": "codify",
+      "enforced_by": "cinematic_lint.py(Vertex視覚・record+stale) → ship.py(違反/未判定でNO-GO)",
+      "due": "2026-08-31",
+      "decided_by": "user", "decided_at": "2026-08-15",
+      "note": "検証済(door_shut等ep02は16/17違反を検知・ep05明快図/ep01合成図は通過)。ship.py出荷ゲートがシネマ調違反/未判定をNO-GOで止める＝コード強制済。残＝ep02-05のシネマ調60枚超を非シネマ化(作り直し)＝制作タスク(方針の強制は完了・中身の是正が残)。"
+    },
+    {
+      "id": "panel-display-duration",
+      "source": "memory:feedback_panel_display_duration",
+      "summary": "用語解説/豆知識/補足パネルは読める表示尺を必ず確保(短すぎ厳禁)",
+      "criticality": "important",
+      "decision": "defer",
+      "enforced_by": "",
+      "due": "2026-09-30",
+      "decided_by": "user+claude", "decided_at": "2026-08-15",
+      "note": "note文字数×表示秒で決定論化可能(gate A-1系に追加)。期限までに着手。"
+    },
+    {
+      "id": "illustration-anatomy-qa",
+      "source": "memory:feedback_illustration_qa",
+      "summary": "生成イラストは機構(チャネル≠輸送体)・数(MIT1/DIT2/T4=4)・誤解要素を提出前に検品",
+      "criticality": "critical",
+      "decision": "codify",
+      "enforced_by": "figcheck(Vertex) + medcheck(部分) + 人",
+      "due": "",
+      "decided_by": "user+claude", "decided_at": "2026-08-15",
+      "note": "figcheck/medcheck配線済(部分)。完全自動は不可＝AI判定+人。"
+    },
+    {
+      "id": "external-ai-adversarial-review",
+      "source": "memory:feedback_multiai_browser_enforcement / ユーザー指示2026-08-15『他AIを使うのを必ず実行するよう強制して』",
+      "summary": "重要物(検品コアの変更)は必ずブラウザ版他AI(OpenAI必須+強AI)で敵対レビュー。記録止まりにさせずコードで強制",
+      "criticality": "critical",
+      "decision": "codify",
+      "enforced_by": "external_review_gate.py(検品コアの内容ハッシュに外部レビューを束縛・STALE/NO-GO/無レビュー改変で🔴) + check_system連動",
+      "due": "",
+      "decided_by": "user", "decided_at": "2026-08-15",
+      "note": "契機=Claudeが3行修正を『重要でない』と自己判断し外部レビューを飛ばし、GPTが【高】級欠陥複数でNO-GO(記録は無視され得るの実演)。対象範囲『検品システムのコア』は人が決定(委譲不能)。導入時の既存10ファイルはWARN債務→順次 外部レビュー→--registerで消す。以後の編集は🔴STALE=再レビュー強制。"
+    },
+    {
+      "id": "workflow-adherence-read-canon-first",
+      "source": "memory:feedback_workflow_adherence / _制作ワークフロー正本",
+      "summary": "新セッションはまず正本・ワークフローを読んでから着手",
+      "criticality": "important",
+      "decision": "record_only",
+      "enforced_by": "",
+      "due": "",
+      "decided_by": "user+claude", "decided_at": "2026-08-15",
+      "note": "人の規律＋run_preship_qa/check_systemが現在地を頭出しで一部代替。完全なコード強制は困難と判断し明示的にrecord_only。"
+    }
+  ]
+}

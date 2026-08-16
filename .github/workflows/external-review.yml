@@ -1,0 +1,85 @@
+# ============================================================================
+# 外部AIレビュー強制（真の信頼基点＝ローカル外・改ざん不能）
+#   両AI(GPT-5.6 Sol / Gemini 3.1 Pro拡張)の3回の敵対レビューが示した結論：
+#   ローカルの自己参照ゲートは強制になり得ない → gate自身のSHAを"ローカル外のimmutableなCI policy"で検証する。
+#
+# このワークフローが信頼基点である理由：
+#   ・GitHubのブランチ保護で main への直push禁止＋この必須チェック通過をmerge条件にする（設定は別途・下記手順）。
+#   ・検証ロジックはこのYAML内にインライン（別スクリプトを改ざんされない）。このファイル自体もブランチ保護対象。
+#   ・署名検証は"公開鍵ファイル"でなく下の EXPECTED_FINGERPRINT（このYAML=保護対象に固定）で鍵を特定する
+#     ＝攻撃者が公開鍵ファイルを自分の鍵で上書きしても、指紋不一致で弾く（両AI指摘のダウングレード/鍵すり替えを封じる）。
+#   ・秘密鍵はユーザーがローカル(オフライン)保持。CIには公開鍵と署名済みmanifestだけ。Claudeは署名しない。
+#
+# 仕組み：
+#   1) 署名済みmanifest(external_reviews_manifest.json[.asc])の署名を、ピン留め指紋の鍵で検証。
+#   2) manifestの全critical fileについて、現在の内容sha256(CRLF/CR→LF正規化)がmanifest記載と一致し、verdict=GOか検証。
+#      → external_review_gate.py 自身もmanifestに含むので、gate改ざん(return True挿入等)はsha不一致でここで露見。
+#   3) 1つでも不一致/非GO/署名不正なら fail（=mergeブロック）。
+# ============================================================================
+name: external-review-gate
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      # ★ユーザーが自分のgpg公開鍵の指紋(40桁hex)をここに固定する。例: ABCD1234...（`gpg --fingerprint`で取得）。
+      #   このYAMLはブランチ保護対象なので、指紋の変更にはレビュー付きPRが要る＝鍵すり替えを防ぐ。
+      EXPECTED_FINGERPRINT: "995A867577D9B3152E82E2C8708D7ED4B73FC365"
+      MANIFEST: "src/checkdata/external_reviews_manifest.json"
+      PUBKEY: "src/checkdata/trusted_reviewers.asc"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify signed manifest signature (pinned fingerprint)
+        run: |
+          set -euo pipefail
+          if [ ! -f "$MANIFEST" ] || [ ! -f "$MANIFEST.asc" ]; then
+            echo "::error::署名済みmanifest($MANIFEST(.asc))が無い＝外部レビュー未整備。ブロック。"; exit 1
+          fi
+          if [ ! -f "$PUBKEY" ]; then echo "::error::公開鍵($PUBKEY)が無い。"; exit 1; fi
+          gpg --batch --import "$PUBKEY"
+          # 署名を検証し、status-fdでVALIDSIGの指紋がピン留めと一致するか厳密確認（valid署名でも別鍵ならNG）。
+          gpg --batch --status-fd 1 --verify "$MANIFEST.asc" "$MANIFEST" > gpgstatus.txt 2>/dev/null || true
+          echo "---- gpg status ----"; cat gpgstatus.txt
+          if ! grep -q "VALIDSIG" gpgstatus.txt; then echo "::error::manifest署名が無効。"; exit 1; fi
+          if ! grep "VALIDSIG" gpgstatus.txt | grep -qi "$EXPECTED_FINGERPRINT"; then
+            echo "::error::署名鍵がピン留め指紋と不一致＝鍵すり替えの疑い。ブロック。"; exit 1
+          fi
+          echo "署名OK（ピン留め鍵）。"
+
+      - name: Enforce every critical file matches signed manifest and is GO
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, hashlib, sys, pathlib
+          man = json.load(open("src/checkdata/external_reviews_manifest.json", encoding="utf-8"))
+          files = man.get("files", {})
+          if not files:
+              print("::error::manifestにcritical fileが無い。"); sys.exit(1)
+          def h(rel):
+              p = pathlib.Path(rel)
+              if not p.exists(): return None
+              b = p.read_bytes().replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+              return hashlib.sha256(b).hexdigest()
+          bad = []
+          for rel, meta in sorted(files.items()):
+              cur = h(rel)
+              if cur is None:
+                  bad.append(f"{rel}: ファイル欠落"); continue
+              if cur != meta.get("sha256"):
+                  bad.append(f"{rel}: sha不一致（署名manifestと違う＝無レビュー改変/改ざん）"); continue
+              if (meta.get("verdict") or "").upper() != "GO":
+                  bad.append(f"{rel}: verdict={meta.get('verdict')}（外部レビュー未合格）")
+          if bad:
+              print("::error::外部レビュー強制に失敗：")
+              for b in bad: print(" -", b)
+              sys.exit(1)
+          print(f"OK：全{len(files)}件が署名済みmanifestと一致・GO。gate自身のshaも一致（改ざんなし）。")
+          PY

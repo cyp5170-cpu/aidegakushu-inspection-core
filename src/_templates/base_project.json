@@ -1,0 +1,1142 @@
+{
+ "FilePath": "%USERPROFILE%\\OneDrive\\デスクトップ\\projects\\琴葉茜葵_設定学習データ\\無題.ymmp",
+ "SelectedTimelineIndex": 0,
+ "Timelines": [
+  {
+   "ID": "a5ce0352-144b-4028-819a-347d85d0214d",
+   "Name": "メイン",
+   "VideoInfo": {
+    "FPS": 30,
+    "Hz": 48000,
+    "Width": 1280,
+    "Height": 720,
+    "BackgroundColor": "#00FFFFFF"
+   },
+   "VerticalLine": {
+    "IsEnabled": false,
+    "StartFrame": 0,
+    "LineType": "BPM",
+    "Line": {
+     "$type": "YukkuriMovieMaker.Project.VerticalBPMLine, YukkuriMovieMaker.Plugin",
+     "BPM": 100.0
+    },
+    "Group": 4
+   },
+   "Items": [],
+   "LayerSettings": {
+    "Items": [
+     {
+      "Layer": 15,
+      "Label": null,
+      "Color": "#00FFFFFF",
+      "IsHidden": true,
+      "Volume": 100.0
+     }
+    ]
+   },
+   "CurrentFrame": 108,
+   "Length": 300,
+   "MaxLayer": 1
+  }
+ ],
+ "Characters": [
+  {
+   "Name": "琴葉葵SD",
+   "GroupName": "ゆっくり",
+   "Color": "#FF1AFFFC",
+   "Layer": 0,
+   "KeyGesture": {
+    "Key": 0,
+    "Modifiers": 2
+   },
+   "Remark": "",
+   "Voice": {
+    "API": "AquesTalk",
+    "Arg": "f1"
+   },
+   "Volume": {
+    "Values": [
+     {
+      "Value": 50.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "Pan": {
+    "Values": [
+     {
+      "Value": 0.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "PlaybackRate": 100.0,
+   "VoiceParameter": {
+    "$type": "YukkuriMovieMaker.Voice.AquesTalk1VoiceParameter, YukkuriMovieMaker",
+    "Speed": 100,
+    "EngineVersion": "V1_7"
+   },
+   "ContentOffset": "00:00:00",
+   "AdditionalTime": 0.3,
+   "VoiceFadeIn": 0.0,
+   "VoiceFadeOut": 0.0,
+   "EchoIsEnabled": false,
+   "EchoInterval": 0.1,
+   "EchoAttenuation": 40.0,
+   "CustomVoiceIsEnabled": false,
+   "CustomVoiceIncludeSubdirectories": false,
+   "CustomVoiceDirectory": "",
+   "CustomVoiceFileName": "",
+   "AudioEffects": [],
+   "IsJimakuVisible": true,
+   "IsJimakuLocked": false,
+   "X": {
+    "Values": [
+     {
+      "Value": 0.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "Y": {
+    "Values": [
+     {
+      "Value": 350.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "Z": {
+    "Values": [
+     {
+      "Value": 0.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "Opacity": {
+    "Values": [
+     {
+      "Value": 100.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "Zoom": {
+    "Values": [
+     {
+      "Value": 100.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "Rotation": {
+    "Values": [
+     {
+      "Value": 0.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "JimakuFadeIn": 0.0,
+   "JimakuFadeOut": 0.0,
+   "Blend": "Normal",
+   "IsInverted": false,
+   "IsAlwaysOnTop": false,
+   "IsZOrderEnabled": false,
+   "IsClippingWithObjectAbove": false,
+   "Font": "メイリオ",
+   "FontSize": {
+    "Values": [
+     {
+      "Value": 45.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "LineHeight2": {
+    "Values": [
+     {
+      "Value": 100.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "LetterSpacing2": {
+    "Values": [
+     {
+      "Value": 0.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "WordWrap": "NoWrap",
+   "MaxWidth": {
+    "Values": [
+     {
+      "Value": 1920.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "BasePoint": "CenterBottom",
+   "FontColor": "#FFFFFFFF",
+   "Style": "Border",
+   "StyleColor": "#FF1A76FF",
+   "Bold": false,
+   "Italic": false,
+   "Underline": false,
+   "Strikethrough": false,
+   "IsTrimEndSpace": false,
+   "IsDevidedPerCharacter": false,
+   "DisplayInterval": 0.0,
+   "DisplayDirection": "FromFirst",
+   "HideInterval": 0.2,
+   "HideDirection": "FromFirst",
+   "JimakuVideoEffects": [],
+   "TachieType": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachiePlugin, YukkuriMovieMaker.Plugin.Tachie.Psd, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+   "TachieCharacterParameter": {
+    "$type": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachieCharacterParameter, YukkuriMovieMaker.Plugin.Tachie.Psd",
+    "FilePath": "%USERPROFILE%\\OneDrive\\デスクトップ\\projects\\琴葉茜葵_設定学習データ\\YMM4素材\\SD立ち絵_琴葉姉妹\\アジサバ_琴葉姉妹_SD_Ver1.2\\琴葉姉妹_SD立ち絵.psd",
+    "MouthSensitivity": 100.0
+   },
+   "MouseSmooth": 4,
+   "IsTachieLocked": false,
+   "TachieX": {
+    "Values": [
+     {
+      "Value": 0.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "TachieY": {
+    "Values": [
+     {
+      "Value": 0.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "TachieZ": {
+    "Values": [
+     {
+      "Value": 0.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "TachieOpacity": {
+    "Values": [
+     {
+      "Value": 100.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "TachieZoom": {
+    "Values": [
+     {
+      "Value": 100.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "TachieRotation": {
+    "Values": [
+     {
+      "Value": 0.0
+     }
+    ],
+    "Span": 0.0,
+    "AnimationType": "なし",
+    "Bezier": {
+     "Points": [
+      {
+       "Point": {
+        "X": 0.0,
+        "Y": 0.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      },
+      {
+       "Point": {
+        "X": 1.0,
+        "Y": 1.0
+       },
+       "ControlPoint1": {
+        "X": -0.3,
+        "Y": -0.3
+       },
+       "ControlPoint2": {
+        "X": 0.3,
+        "Y": 0.3
+       }
+      }
+     ],
+     "IsQuadratic": false
+    }
+   },
+   "TachieFadeIn": 0.0,
+   "TachieFadeOut": 0.0,
+   "TachieBlend": "Normal",
+   "TachieIsInverted": false,
+   "TachieIsAlwaysOnTop": false,
+   "TachieIsZOrderEnabled": false,
+   "TachieIsClippingWithObjectAbove": false,
+   "TachieDefaultItemParameter": {
+    "$type": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachieItemParameter, YukkuriMovieMaker.Plugin.Tachie.Psd",
+    "FilePath": "%USERPROFILE%\\OneDrive\\デスクトップ\\projects\\琴葉茜葵_設定学習データ\\YMM4素材\\SD立ち絵_琴葉姉妹\\アジサバ_琴葉姉妹_SD_Ver1.2\\琴葉姉妹_SD立ち絵.psd",
+    "EnableLayers": [
+     "n238",
+     "n236",
+     "n234",
+     "n231",
+     "n230",
+     "n224",
+     "n223",
+     "n221",
+     "n217",
+     "n210",
+     "n208",
+     "n206",
+     "n202",
+     "n199",
+     "n196",
+     "n193",
+     "n185",
+     "n175",
+     "n168",
+     "n164",
+     "n152",
+     "n149",
+     "n148",
+     "n146",
+     "n145",
+     "n144",
+     "n136",
+     "n135",
+     "n133",
+     "n126",
+     "n121",
+     "n120",
+     "n117",
+     "n116",
+     "n113",
+     "n112",
+     "n109",
+     "n106",
+     "n104",
+     "n102",
+     "n100",
+     "n98",
+     "n97",
+     "n94",
+     "n92",
+     "n89",
+     "n86",
+     "n84",
+     "n81",
+     "n80",
+     "n77",
+     "n75",
+     "n74",
+     "n70",
+     "n69",
+     "n67",
+     "n64",
+     "n63",
+     "n59",
+     "n57",
+     "n52",
+     "n44",
+     "n42",
+     "n41",
+     "n37",
+     "n36",
+     "n34",
+     "n31",
+     "n30",
+     "n26",
+     "n24",
+     "n19",
+     "n14",
+     "n13",
+     "n12",
+     "n9",
+     "n6",
+     "n3"
+    ],
+    "EnableLayerPaths": [
+     "\u001c琴葉姉妹\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001cアクセサリ\u001d0\u001cボード\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001cアクセサリ\u001d0\u001cボード\u001d0\u001c*あおいちゃん\u001d0\u001c*下\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001cアクセサリ\u001d0\u001cボード\u001d0\u001c*あかねちゃん\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001cアクセサリ\u001d0\u001cボード\u001d0\u001c*あかねちゃん\u001d0\u001c*下\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c顔の上の手\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c顔の上の手\u001d0\u001c右手\u001d0\u001c*シー(右手)\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c顔の上の手\u001d0\u001c左手\u001d0\u001c*シー(左手)\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0\u001c*まろまゆ\u001d0\u001c*葵ちゃん\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0\u001c*まろまゆ\u001d0\u001c*葵ちゃん\u001d0\u001c*１\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0\u001c*まろまゆ\u001d0\u001c*茜ちゃん\u001d0\u001c*１\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0\u001c*普通\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0\u001c*普通\u001d0\u001c*1\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c目\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c目\u001d0\u001c*目\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c口\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c口\u001d0\u001cあいうえお\u001d0\u001c*あ\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c口\u001d0\u001c*あ\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c口\u001d0\u001c*ｖ\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あおいちゃん\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あおいちゃん\u001d0\u001c*標準\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あおいちゃん\u001d0\u001c!髪飾り\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あおいちゃん\u001d0\u001c!髪飾り\u001d0\u001c*あおいちゃん(左) のコピー\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あかねちゃん\u001d0\u001c*標準\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あかねちゃん\u001d0\u001c!髪飾り右\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あかねちゃん\u001d0\u001c!髪飾り右\u001d0\u001c*あかねちゃん\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c手前に出てる腕\u001d0\u001c*上_葵\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001cほっぺた\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001cほっぺた\u001d0\u001c*上\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!素体\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*下半身\u001d0\u001c*茜ちゃん\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*下半身\u001d0\u001c!胴体\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0\u001c*あおいちゃん\u001d0\u001c*リボン\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0\u001c*あかねちゃん\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0\u001c*あかねちゃん\u001d0\u001c*リボン\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0\u001c胴体\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c左腕\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c左腕\u001d0\u001c*下\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c右腕\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c右腕\u001d0\u001c*下\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!足\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!足\u001d0\u001c*立っている\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c顔に向く腕\u001d0\u001c*顔に向く腕(左手)\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c!装飾\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c!胴体\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c!胴体\u001d0\u001c*下にしている\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c!胴体\u001d0\u001c!足\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c!胴体\u001d0\u001c!足\u001d0\u001c*立っている\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c腕\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c腕\u001d0\u001c左腕\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c腕\u001d0\u001c左腕\u001d0\u001c*下\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c腕\u001d0\u001c右腕\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c腕\u001d0\u001c右腕\u001d0\u001c*下\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c*顔に向く腕\u001d0\u001c*顔に向く腕(左手) のコピー\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!装飾\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0\u001c*下にしている\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0\u001c!足\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0\u001c!足\u001d0\u001c*立っている\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!左腕\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!左腕\u001d0\u001c*下\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!右腕\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!右腕\u001d0\u001c*下\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あおいちゃん\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あおいちゃん\u001d0\u001c!もみあげ\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あおいちゃん\u001d0\u001c*ロング\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あかねちゃん\u001d0\u001c!もみあげ\u001d0",
+     "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あかねちゃん\u001d0\u001c*ロング\u001d0"
+    ],
+    "IsHiddenWhenNoSpeech": false
+   },
+   "TachieItemVideoEffects": [],
+   "TachieDefaultFaceParameter": {
+    "$type": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachieFaceParameter, YukkuriMovieMaker.Plugin.Tachie.Psd",
+    "IsEnabled": false,
+    "FilePath": null,
+    "EnableLayers": [],
+    "EnableLayerPaths": [],
+    "EyeAnimation": "Default",
+    "MouthAnimation": "Default"
+   },
+   "TachieDefaultFaceEffects": [],
+   "AdditionalForegroundTemplateName": null,
+   "AdditionalBackgroundTemplateName": null,
+   "VoiceItemLength": 300,
+   "TachieItemLength": 300,
+   "VoiceItemKeyFrames": {
+    "Frames": [],
+    "Count": 0
+   },
+   "TachieItemKeyFrames": {
+    "Frames": [],
+    "Count": 0
+   }
+  }
+ ],
+ "CollapsedGroups": [],
+ "LayoutXml": "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<LayoutRoot>\r\n  <RootPanel Orientation=\"Horizontal\">\r\n    <LayoutPanel Orientation=\"Vertical\">\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" DockHeight=\"400\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"f0cf0936-504b-4517-a5fe-323f0d280195\" DockHeight=\"400\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n          <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"プレビュー\" IsSelected=\"True\" ContentId=\"Preview\" ToolTip=\"プレビュー\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:24:54\" CanShowOnHover=\"False\" />\r\n        </LayoutAnchorablePane>\r\n      </LayoutAnchorablePaneGroup>\r\n      <LayoutDocumentPaneGroup Orientation=\"Horizontal\">\r\n        <LayoutDocumentPane FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n          <LayoutDocument Title=\"メイン\" IsSelected=\"True\" IsLastFocusedDocument=\"True\" ContentId=\"a5ce0352-144b-4028-819a-347d85d0214d\" ToolTip=\"メイン\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" CanClose=\"False\" LastActivationTimeStamp=\"08/04/2026 14:24:54\" />\r\n        </LayoutDocumentPane>\r\n      </LayoutDocumentPaneGroup>\r\n    </LayoutPanel>\r\n    <LayoutAnchorablePane Id=\"45fc1f97-0cad-4d69-b7a4-d1bd495daf7f\" DockWidth=\"400\">\r\n      <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"アイテム\" IsSelected=\"True\" ContentId=\"ItemEditor\" ToolTip=\"アイテム\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:22:33\" CanShowOnHover=\"False\" />\r\n    </LayoutAnchorablePane>\r\n  </RootPanel>\r\n  <TopSide />\r\n  <RightSide />\r\n  <LeftSide />\r\n  <BottomSide />\r\n  <FloatingWindows>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"8336f139-935e-4d44-be50-794ca547dba1\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"ebbcaf83-9b58-49f2-b5cc-7c961b09ecde\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"156\" FloatingTop=\"156\">\r\n        <LayoutAnchorablePane Id=\"91344830-659d-452c-9955-365d9fd45801\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"156\" FloatingTop=\"156\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"182\" FloatingTop=\"182\">\r\n        <LayoutAnchorablePane Id=\"e8d6fecd-f87f-4ff1-a051-d11f01645833\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"182\" FloatingTop=\"182\">\r\n          <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"キャラクター設定\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.ViewModels.CharacterEditorViewModel\" ToolTip=\"キャラクター設定\" FloatingLeft=\"182\" FloatingTop=\"182\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:32:18\" />\r\n        </LayoutAnchorablePane>\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"842f9c19-26bf-4144-9a81-52cfa4790c77\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"1284ed45-3507-4be9-b5a0-195d246a3e12\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"b677379d-1cca-41f0-8501-43c128364e9d\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"b99fece2-7207-487f-aae2-70f06e47fe06\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"64fe75ae-2308-4096-979c-e08efadad9be\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"545b0265-f6b6-43e3-b398-38a23edb453a\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"3ed6785a-812d-4476-b985-e410e6b848ab\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"ab0c705c-fc58-49f5-aa7d-322aaf4641bf\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"e2942184-4b20-406c-859f-9de4e2358048\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"7f52f75a-3de6-44b6-b4f2-7048403ddd66\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"d9118077-44d6-4fd1-a43c-ae5468da8e29\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"cd0837f2-4440-49bd-b2a1-a19f283a5349\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n    <LayoutAnchorableFloatingWindow>\r\n      <LayoutAnchorablePaneGroup Orientation=\"Horizontal\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\">\r\n        <LayoutAnchorablePane Id=\"55b4d007-001c-4850-aa2a-c3da80fef7f7\" FloatingWidth=\"600\" FloatingHeight=\"400\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" />\r\n      </LayoutAnchorablePaneGroup>\r\n    </LayoutAnchorableFloatingWindow>\r\n  </FloatingWindows>\r\n  <Hidden>\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"エクスプローラー\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.Plugin.Community.Tool.Explorer.ExplorerViewModel/5bf08778-eda0-4db2-a7b9-44fe634b13fc\" ToolTip=\"エクスプローラー\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"8336f139-935e-4d44-be50-794ca547dba1\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"MCP連携サーバー\" IsSelected=\"True\" ContentId=\"YMM4McpPlugin.McpViewModel\" ToolTip=\"MCP連携サーバー\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"ebbcaf83-9b58-49f2-b5cc-7c961b09ecde\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"テンプレート\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.ViewModels.TemplateEditorViewModel\" ToolTip=\"テンプレート\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"842f9c19-26bf-4144-9a81-52cfa4790c77\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"ブラウザ\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.Plugin.Community.Tool.Browser.BrowserViewModel/72bd1c05-b072-4158-a5da-404f0162a4c8\" ToolTip=\"ブラウザ\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"1284ed45-3507-4be9-b5a0-195d246a3e12\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"プラグインポータル\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.Plugin.Community.Tool.PluginPortal.PluginPortalViewModel\" ToolTip=\"プラグインポータル\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"b677379d-1cca-41f0-8501-43c128364e9d\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"メモ帳\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.Plugin.Community.Tool.Notepad.NotepadViewModel/ddab2aad-eb52-4c74-b274-67e23fe9823b\" ToolTip=\"メモ帳\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"b99fece2-7207-487f-aae2-70f06e47fe06\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"音量解析\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.ViewModels.VolumeAnalyzerViewModel\" ToolTip=\"音量解析\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"64fe75ae-2308-4096-979c-e08efadad9be\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"検索\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.ViewModels.SearchViewModel\" ToolTip=\"検索\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"545b0265-f6b6-43e3-b398-38a23edb453a\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"使用素材一覧\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.ViewModels.ResourceListViewModel\" ToolTip=\"使用素材一覧\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"3ed6785a-812d-4476-b985-e410e6b848ab\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"設定\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.ViewModels.SettingsViewModel\" ToolTip=\"設定\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"ab0c705c-fc58-49f5-aa7d-322aaf4641bf\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"台本編集\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.ViewModels.ScenarioEditorViewModel\" ToolTip=\"台本編集\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"e2942184-4b20-406c-859f-9de4e2358048\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"単語・発音辞書\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.KanjiToYomi.UserDictionaryToolViewModel\" ToolTip=\"単語・発音辞書\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"7f52f75a-3de6-44b6-b4f2-7048403ddd66\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"動く立ち絵素材マネージャー\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.Plugin.Tachie.AnimationTachie.AnimationTachieManagerViewModel\" ToolTip=\"動く立ち絵素材マネージャー\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"d9118077-44d6-4fd1-a43c-ae5468da8e29\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"文字起こし\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.ViewModels.TranscriptionViewModel\" ToolTip=\"文字起こし\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"cd0837f2-4440-49bd-b2a1-a19f283a5349\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"録音\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.Plugin.Community.Tool.Recording.ToolViewModel\" ToolTip=\"録音\" FloatingLeft=\"NaN\" FloatingTop=\"NaN\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:13:29\" PreviousContainerId=\"55b4d007-001c-4850-aa2a-c3da80fef7f7\" PreviousContainerIndex=\"0\" />\r\n    <LayoutAnchorable AutoHideWidth=\"300\" AutoHideHeight=\"300\" AutoHideMinWidth=\"100\" AutoHideMinHeight=\"100\" Title=\"Psd立ち絵素材マネージャー\" IsSelected=\"True\" ContentId=\"YukkuriMovieMaker.Plugin.Tachie.Psd.PsdFileSettingsViewModel\" ToolTip=\"Psd立ち絵素材マネージャー\" FloatingLeft=\"156\" FloatingTop=\"156\" FloatingWidth=\"600\" FloatingHeight=\"400\" LastActivationTimeStamp=\"08/04/2026 14:23:30\" PreviousContainerId=\"91344830-659d-452c-9955-365d9fd45801\" PreviousContainerIndex=\"0\" />\r\n  </Hidden>\r\n</LayoutRoot>",
+ "ToolStates": {
+  "Preview": {
+   "Title": "",
+   "SavedState": null
+  },
+  "ItemEditor": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.ViewModels.CharacterEditorViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.Plugin.Community.Tool.Explorer.ExplorerViewModel/5bf08778-eda0-4db2-a7b9-44fe634b13fc": {
+   "Title": "",
+   "SavedState": "{\"Location\":\"C:\\\\\",\"Layout\":{\"Mode\":\"List\",\"IconSize\":16,\"ItemWidth\":\"NaN\",\"ItemHeight\":16.0,\"MaxTextHeight\":12.0},\"Filter\":{\"IsFiltered\":false,\"IsFilteredByExtension\":false,\"IsVideoVisible\":true,\"IsAudioVisible\":true,\"IsImageVisible\":true,\"IsTextVisible\":true,\"IsOtherVisible\":true,\"IsDirectoryVisible\":true,\"SearchText\":\"\"},\"SortKey\":\"Name\",\"SortOrder\":\"Ascending\",\"SidebarWidth\":150.0,\"IsSidebarVisible\":false}"
+  },
+  "YMM4McpPlugin.McpViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.ViewModels.TemplateEditorViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.Plugin.Community.Tool.Browser.BrowserViewModel/72bd1c05-b072-4158-a5da-404f0162a4c8": {
+   "Title": "ブラウザ",
+   "SavedState": "{\"Location\":\"\",\"Zoom\":1.0}"
+  },
+  "YukkuriMovieMaker.Plugin.Community.Tool.PluginPortal.PluginPortalViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.Plugin.Community.Tool.Notepad.NotepadViewModel/ddab2aad-eb52-4c74-b274-67e23fe9823b": {
+   "Title": "メモ帳",
+   "SavedState": "{\"FilePath\":\"\",\"Text\":\"\",\"Zoom\":1.0,\"IsSaved\":true,\"WordWrap\":false,\"ShowLineNumbers\":false,\"Images\":{}}"
+  },
+  "YukkuriMovieMaker.ViewModels.VolumeAnalyzerViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.ViewModels.SearchViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.ViewModels.ResourceListViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.ViewModels.SettingsViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.ViewModels.ScenarioEditorViewModel": {
+   "Title": "",
+   "SavedState": "{\"FilePath\":null,\"IsSaved\":true,\"Lines\":[]}"
+  },
+  "YukkuriMovieMaker.KanjiToYomi.UserDictionaryToolViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.Plugin.Tachie.AnimationTachie.AnimationTachieManagerViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.ViewModels.TranscriptionViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.Plugin.Community.Tool.Recording.ToolViewModel": {
+   "Title": "",
+   "SavedState": null
+  },
+  "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdFileSettingsViewModel": {
+   "Title": "",
+   "SavedState": null
+  }
+ }
+}

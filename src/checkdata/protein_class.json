@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "purpose": "タンパク→機能クラス＋局在 対照表。カテゴリ取り違え(C-1)・比喩の機構不一致・局在(C-2 膜の側)を検知。",
+    "updated": "2026-08-13",
+    "version": 2,
+    "rule": "フィールド内にname/aliasが出現し、wrong_words/wrong_metaphors/wrong_localizationがname出現セグメントまたは隣接セグメントに共起(否定/対比でなければ)FAIL候補。"
+  },
+  "entries": [
+    {
+      "name": "NIS",
+      "aliases": ["ナトリウム・ヨウ素共輸送体", "ナトリウムヨウ素共輸送体", "Na/I共輸送体", "ナトリウムヨウ素シンポーター", "SLC5A5"],
+      "correct_class": "輸送体(二次性能動輸送・交互アクセス型キャリア)",
+      "wrong_words": ["チャネル", "受容体", "酵素"],
+      "wrong_metaphors": ["自動ドア", "蛇口", "回転扉"],
+      "wrong_localization": ["アピカル", "コロイド側", "管腔側", "頂端"],
+      "correct_localization": "基底膜(血液側)",
+      "note": "NISはキャリア(交互アクセス型)。チャネル/酵素/受容体ではない。局在は基底膜=血液側(アピカル/コロイド側ではない)。運び屋(キャリア)比喩はOK。"
+    },
+    {
+      "name": "TPO",
+      "aliases": ["甲状腺ペルオキシダーゼ", "ペルオキシダーゼ"],
+      "correct_class": "酵素(触媒・反応で消費されない)",
+      "wrong_words": ["輸送体", "チャネル", "受容体", "運び屋", "ポンプ", "キャリア"],
+      "wrong_metaphors": ["接着剤", "のり", "糊", "ホチキス"],
+      "wrong_localization": ["基底膜", "血液側", "基底側"],
+      "correct_localization": "アピカル膜(コロイド側)",
+      "note": "TPOは酵素。有機化(ヨウ素化)とカップリングを触媒。輸送体ではない。局在はアピカル膜=コロイド側(基底膜/血液側ではない)。職人酵素比喩はOK。"
+    },
+    {
+      "name": "甲状腺ホルモン受容体",
+      "aliases": ["TR", "甲状腺ホルモンレセプター"],
+      "correct_class": "核内受容体(細胞内・DNAに結合し転写調節)",
+      "wrong_words": ["細胞膜表面", "膜受容体", "GPCR", "イオンチャネル型", "細胞膜にある受容体"],
+      "wrong_metaphors": [],
+      "wrong_localization": [],
+      "correct_localization": "核内(細胞内)",
+      "note": "甲状腺ホルモン受容体は核内受容体。細胞膜表面のGPCR等ではない。"
+    },
+    {
+      "name": "GLUT4",
+      "aliases": ["GLUT", "グルコース輸送体"],
+      "correct_class": "促進拡散型の輸送体(受動・非能動)",
+      "wrong_words": ["能動輸送", "ポンプ", "チャネル", "酵素"],
+      "wrong_metaphors": [],
+      "wrong_localization": [],
+      "correct_localization": "細胞膜",
+      "note": "GLUTは促進拡散。ATPを使うポンプでも能動輸送でもない。"
+    },
+    {
+      "name": "Na/K-ATPase",
+      "aliases": ["ナトリウムポンプ", "ナトリウムカリウムポンプ"],
+      "correct_class": "一次性能動輸送体(ポンプ・ATP分解)",
+      "wrong_words": ["チャネル", "促進拡散", "受動輸送", "受容体"],
+      "wrong_metaphors": [],
+      "wrong_localization": [],
+      "correct_localization": "細胞膜",
+      "note": "Na/K-ATPaseはATPを分解する一次性能動輸送(ポンプ)。チャネルではない。"
+    }
+  ]
+}

@@ -1,0 +1,1982 @@
+[
+ {
+  "Name": "茜",
+  "GroupName": "ゆっくり",
+  "Color": "#FF8B0000",
+  "Layer": 0,
+  "KeyGesture": {
+   "Key": 0,
+   "Modifiers": 2
+  },
+  "Voice": {
+   "API": "AquesTalk",
+   "Arg": "f1"
+  },
+  "Volume": {
+   "Values": [
+    {
+     "Value": 50.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Pan": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "PlaybackRate": 100.0,
+  "VoiceParameter": {
+   "$type": "YukkuriMovieMaker.Voice.AquesTalk1VoiceParameter, YukkuriMovieMaker",
+   "Speed": 100,
+   "EngineVersion": "V1_7"
+  },
+  "ContentOffset": "00:00:00",
+  "AdditionalTime": 0.3,
+  "VoiceFadeIn": 0.0,
+  "VoiceFadeOut": 0.0,
+  "EchoIsEnabled": false,
+  "EchoInterval": 0.11,
+  "EchoAttenuation": 40.0,
+  "CustomVoiceIsEnabled": true,
+  "CustomVoiceIncludeSubdirectories": true,
+  "CustomVoiceDirectory": "%USERPROFILE%\\OneDrive\\デスクトップ\\projects\\琴葉茜葵_設定学習データ\\音声_書き出し",
+  "CustomVoiceFileName": "琴葉茜",
+  "AudioEffects": [],
+  "IsJimakuVisible": true,
+  "IsJimakuLocked": false,
+  "X": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Y": {
+   "Values": [
+    {
+     "Value": 350.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Z": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Opacity": {
+   "Values": [
+    {
+     "Value": 100.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Zoom": {
+   "Values": [
+    {
+     "Value": 100.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Rotation": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "JimakuFadeIn": 0.0,
+  "JimakuFadeOut": 0.0,
+  "Blend": "Normal",
+  "IsInverted": false,
+  "IsAlwaysOnTop": false,
+  "IsZOrderEnabled": false,
+  "IsClippingWithObjectAbove": false,
+  "Font": "メイリオ",
+  "FontSize": {
+   "Values": [
+    {
+     "Value": 45.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "LineHeight2": {
+   "Values": [
+    {
+     "Value": 100.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "LetterSpacing2": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "WordWrap": "NoWrap",
+  "MaxWidth": {
+   "Values": [
+    {
+     "Value": 1920.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "BasePoint": "CenterBottom",
+  "FontColor": "#FFFFFFFF",
+  "Style": "Border",
+  "StyleColor": "#FF8B0000",
+  "Bold": false,
+  "Italic": false,
+  "Underline": false,
+  "Strikethrough": false,
+  "IsTrimEndSpace": false,
+  "IsDevidedPerCharacter": false,
+  "DisplayInterval": 0.0,
+  "DisplayDirection": "FromFirst",
+  "HideInterval": 0.0,
+  "HideDirection": "FromFirst",
+  "JimakuVideoEffects": [],
+  "TachieType": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachiePlugin, YukkuriMovieMaker.Plugin.Tachie.Psd, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "TachieCharacterParameter": {
+   "$type": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachieCharacterParameter, YukkuriMovieMaker.Plugin.Tachie.Psd",
+   "FilePath": "%USERPROFILE%\\OneDrive\\デスクトップ\\projects\\琴葉茜葵_設定学習データ\\YMM4素材\\SD立ち絵_琴葉姉妹\\アジサバ_琴葉姉妹_SD_Ver1.2\\琴葉姉妹_SD立ち絵.psd",
+   "MouthSensitivity": 100.0
+  },
+  "MouseSmooth": 4,
+  "IsTachieLocked": false,
+  "TachieX": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieY": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieZ": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieOpacity": {
+   "Values": [
+    {
+     "Value": 100.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieZoom": {
+   "Values": [
+    {
+     "Value": 100.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieRotation": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieFadeIn": 0.0,
+  "TachieFadeOut": 0.0,
+  "TachieBlend": "Normal",
+  "TachieIsInverted": false,
+  "TachieIsAlwaysOnTop": false,
+  "TachieIsZOrderEnabled": false,
+  "TachieIsClippingWithObjectAbove": false,
+  "TachieDefaultItemParameter": {
+   "$type": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachieItemParameter, YukkuriMovieMaker.Plugin.Tachie.Psd",
+   "FilePath": "%USERPROFILE%\\OneDrive\\デスクトップ\\projects\\琴葉茜葵_設定学習データ\\YMM4素材\\SD立ち絵_琴葉姉妹\\アジサバ_琴葉姉妹_SD_Ver1.2\\琴葉姉妹_SD立ち絵.psd",
+   "EnableLayers": [
+    "n238",
+    "n236",
+    "n231",
+    "n230",
+    "n224",
+    "n223",
+    "n221",
+    "n217",
+    "n210",
+    "n199",
+    "n196",
+    "n193",
+    "n180",
+    "n175",
+    "n168",
+    "n152",
+    "n149",
+    "n138",
+    "n136",
+    "n135",
+    "n133",
+    "n127",
+    "n121",
+    "n120",
+    "n117",
+    "n116",
+    "n113",
+    "n112",
+    "n109",
+    "n104",
+    "n102",
+    "n100",
+    "n98",
+    "n97",
+    "n94",
+    "n92",
+    "n89",
+    "n86",
+    "n84",
+    "n47",
+    "n44",
+    "n42",
+    "n41",
+    "n37",
+    "n36",
+    "n34",
+    "n31",
+    "n30",
+    "n26",
+    "n24",
+    "n19",
+    "n14",
+    "n7",
+    "n6",
+    "n3"
+   ],
+   "EnableLayerPaths": [
+    "\u001c琴葉姉妹\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001cアクセサリ\u001d0\u001cボード\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001cアクセサリ\u001d0\u001cボード\u001d0\u001c*あかねちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001cアクセサリ\u001d0\u001cボード\u001d0\u001c*あかねちゃん\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c顔の上の手\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c顔の上の手\u001d0\u001c右手\u001d0\u001c*シー(右手)\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c顔の上の手\u001d0\u001c左手\u001d0\u001c*シー(左手)\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0\u001c*普通\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0\u001c*普通\u001d0\u001c*1\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c目\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c目\u001d0\u001c*目\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c口\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c口\u001d0\u001cあいうえお\u001d0\u001c*あ\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c口\u001d0\u001c*ｖ\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あかねちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あかねちゃん\u001d0\u001c*標準\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あかねちゃん\u001d0\u001c!髪飾り右\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あかねちゃん\u001d0\u001c!髪飾り右\u001d0\u001c*あかねちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c手前に出てる腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001cほっぺた\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001cほっぺた\u001d0\u001c*上\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!素体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*下半身\u001d0\u001c*茜ちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*下半身\u001d0\u001c!胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0\u001c*あかねちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0\u001c*あかねちゃん\u001d0\u001c*リボン\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0\u001c胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c左腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c左腕\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c右腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c右腕\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!足\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!足\u001d0\u001c*立っている\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c*顔に向く腕\u001d0\u001c*顔に向く腕(左手) のコピー\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!装飾\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0\u001c*下にしている\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0\u001c!足\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0\u001c!足\u001d0\u001c*立っている\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!左腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!左腕\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!右腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!右腕\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あかねちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あかねちゃん\u001d0\u001c!もみあげ\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あかねちゃん\u001d0\u001c*ロング\u001d0"
+   ],
+   "IsHiddenWhenNoSpeech": false
+  },
+  "TachieItemVideoEffects": [],
+  "TachieDefaultFaceParameter": {
+   "$type": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachieFaceParameter, YukkuriMovieMaker.Plugin.Tachie.Psd",
+   "IsEnabled": false,
+   "FilePath": null,
+   "EnableLayers": [],
+   "EnableLayerPaths": [],
+   "EyeAnimation": "Default",
+   "MouthAnimation": "Default"
+  },
+  "TachieDefaultFaceEffects": [],
+  "AdditionalForegroundTemplateName": null,
+  "AdditionalBackgroundTemplateName": null,
+  "VoiceItemLength": 300,
+  "TachieItemLength": 300,
+  "VoiceItemKeyFrames": {
+   "Frames": [],
+   "Count": 0
+  },
+  "TachieItemKeyFrames": {
+   "Frames": [],
+   "Count": 0
+  }
+ },
+ {
+  "Name": "葵",
+  "GroupName": "ゆっくり",
+  "Color": "#FF8B0000",
+  "Layer": 0,
+  "KeyGesture": {
+   "Key": 0,
+   "Modifiers": 2
+  },
+  "Voice": {
+   "API": "AquesTalk",
+   "Arg": "f1"
+  },
+  "Volume": {
+   "Values": [
+    {
+     "Value": 50.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Pan": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "PlaybackRate": 100.0,
+  "VoiceParameter": {
+   "$type": "YukkuriMovieMaker.Voice.AquesTalk1VoiceParameter, YukkuriMovieMaker",
+   "Speed": 100,
+   "EngineVersion": "V1_7"
+  },
+  "ContentOffset": "00:00:00",
+  "AdditionalTime": 0.3,
+  "VoiceFadeIn": 0.0,
+  "VoiceFadeOut": 0.0,
+  "EchoIsEnabled": false,
+  "EchoInterval": 0.1,
+  "EchoAttenuation": 40.0,
+  "CustomVoiceIsEnabled": true,
+  "CustomVoiceIncludeSubdirectories": true,
+  "CustomVoiceDirectory": "%USERPROFILE%\\OneDrive\\デスクトップ\\projects\\琴葉茜葵_設定学習データ\\音声_書き出し",
+  "CustomVoiceFileName": "琴葉葵",
+  "AudioEffects": [],
+  "IsJimakuVisible": true,
+  "IsJimakuLocked": false,
+  "X": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Y": {
+   "Values": [
+    {
+     "Value": 350.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Z": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Opacity": {
+   "Values": [
+    {
+     "Value": 100.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Zoom": {
+   "Values": [
+    {
+     "Value": 100.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "Rotation": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "JimakuFadeIn": 0.0,
+  "JimakuFadeOut": 0.0,
+  "Blend": "Normal",
+  "IsInverted": false,
+  "IsAlwaysOnTop": false,
+  "IsZOrderEnabled": false,
+  "IsClippingWithObjectAbove": false,
+  "Font": "メイリオ",
+  "FontSize": {
+   "Values": [
+    {
+     "Value": 45.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "LineHeight2": {
+   "Values": [
+    {
+     "Value": 100.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "LetterSpacing2": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "WordWrap": "NoWrap",
+  "MaxWidth": {
+   "Values": [
+    {
+     "Value": 1920.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "BasePoint": "CenterBottom",
+  "FontColor": "#FFFFFFFF",
+  "Style": "Border",
+  "StyleColor": "#FF8B0000",
+  "Bold": false,
+  "Italic": false,
+  "Underline": false,
+  "Strikethrough": false,
+  "IsTrimEndSpace": false,
+  "IsDevidedPerCharacter": false,
+  "DisplayInterval": 0.0,
+  "DisplayDirection": "FromFirst",
+  "HideInterval": 0.0,
+  "HideDirection": "FromFirst",
+  "JimakuVideoEffects": [],
+  "TachieType": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachiePlugin, YukkuriMovieMaker.Plugin.Tachie.Psd, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "TachieCharacterParameter": {
+   "$type": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachieCharacterParameter, YukkuriMovieMaker.Plugin.Tachie.Psd",
+   "FilePath": "%USERPROFILE%\\OneDrive\\デスクトップ\\projects\\琴葉茜葵_設定学習データ\\YMM4素材\\SD立ち絵_琴葉姉妹\\アジサバ_琴葉姉妹_SD_Ver1.2\\琴葉姉妹_SD立ち絵.psd",
+   "MouthSensitivity": 100.0
+  },
+  "MouseSmooth": 4,
+  "IsTachieLocked": false,
+  "TachieX": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieY": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieZ": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieOpacity": {
+   "Values": [
+    {
+     "Value": 100.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieZoom": {
+   "Values": [
+    {
+     "Value": 100.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieRotation": {
+   "Values": [
+    {
+     "Value": 0.0
+    }
+   ],
+   "Span": 0.0,
+   "AnimationType": "なし",
+   "Bezier": {
+    "Points": [
+     {
+      "Point": {
+       "X": 0.0,
+       "Y": 0.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     },
+     {
+      "Point": {
+       "X": 1.0,
+       "Y": 1.0
+      },
+      "ControlPoint1": {
+       "X": -0.3,
+       "Y": -0.3
+      },
+      "ControlPoint2": {
+       "X": 0.3,
+       "Y": 0.3
+      }
+     }
+    ],
+    "IsQuadratic": false
+   }
+  },
+  "TachieFadeIn": 0.0,
+  "TachieFadeOut": 0.0,
+  "TachieBlend": "Normal",
+  "TachieIsInverted": false,
+  "TachieIsAlwaysOnTop": false,
+  "TachieIsZOrderEnabled": false,
+  "TachieIsClippingWithObjectAbove": false,
+  "TachieDefaultItemParameter": {
+   "$type": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachieItemParameter, YukkuriMovieMaker.Plugin.Tachie.Psd",
+   "FilePath": "%USERPROFILE%\\OneDrive\\デスクトップ\\projects\\琴葉茜葵_設定学習データ\\YMM4素材\\SD立ち絵_琴葉姉妹\\アジサバ_琴葉姉妹_SD_Ver1.2\\琴葉姉妹_SD立ち絵.psd",
+   "EnableLayers": [
+    "n238",
+    "n236",
+    "n234",
+    "n231",
+    "n230",
+    "n224",
+    "n223",
+    "n221",
+    "n217",
+    "n210",
+    "n199",
+    "n196",
+    "n193",
+    "n185",
+    "n175",
+    "n174",
+    "n168",
+    "n149",
+    "n148",
+    "n146",
+    "n145",
+    "n144",
+    "n136",
+    "n135",
+    "n133",
+    "n126",
+    "n121",
+    "n120",
+    "n117",
+    "n116",
+    "n113",
+    "n112",
+    "n109",
+    "n106",
+    "n104",
+    "n102",
+    "n100",
+    "n98",
+    "n97",
+    "n94",
+    "n92",
+    "n89",
+    "n86",
+    "n84",
+    "n81",
+    "n80",
+    "n77",
+    "n75",
+    "n74",
+    "n70",
+    "n69",
+    "n67",
+    "n64",
+    "n63",
+    "n59",
+    "n57",
+    "n52",
+    "n44",
+    "n42",
+    "n41",
+    "n37",
+    "n36",
+    "n34",
+    "n31",
+    "n30",
+    "n26",
+    "n24",
+    "n19",
+    "n14",
+    "n13",
+    "n12",
+    "n9",
+    "n6",
+    "n3"
+   ],
+   "EnableLayerPaths": [
+    "\u001c琴葉姉妹\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001cアクセサリ\u001d0\u001cボード\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001cアクセサリ\u001d0\u001cボード\u001d0\u001c*あおいちゃん\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001cアクセサリ\u001d0\u001cボード\u001d0\u001c*あかねちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001cアクセサリ\u001d0\u001cボード\u001d0\u001c*あかねちゃん\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c顔の上の手\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c顔の上の手\u001d0\u001c右手\u001d0\u001c*シー(右手)\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c顔の上の手\u001d0\u001c左手\u001d0\u001c*シー(左手)\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0\u001c*普通\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c眉毛\u001d0\u001c*普通\u001d0\u001c*1\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c目\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c目\u001d0\u001c*目\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c口\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c口\u001d0\u001cあいうえお\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!表情\u001d0\u001c口\u001d0\u001cあいうえお\u001d0\u001c*あ\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あおいちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あおいちゃん\u001d0\u001c*標準\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あおいちゃん\u001d0\u001c!髪飾り\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あおいちゃん\u001d0\u001c!髪飾り\u001d0\u001c*あおいちゃん(左) のコピー\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あかねちゃん\u001d0\u001c*標準\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あかねちゃん\u001d0\u001c!髪飾り右\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!前髪\u001d0\u001c*あかねちゃん\u001d0\u001c!髪飾り右\u001d0\u001c*あかねちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c手前に出てる腕\u001d0\u001c*上_葵\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001cほっぺた\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001cほっぺた\u001d0\u001c*上\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!素体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*下半身\u001d0\u001c*茜ちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*下半身\u001d0\u001c!胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0\u001c*あおいちゃん\u001d0\u001c*リボン\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0\u001c*あかねちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0\u001c*あかねちゃん\u001d0\u001c*リボン\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!胴体\u001d0\u001c胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c左腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c左腕\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c右腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!腕\u001d0\u001c右腕\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!足\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*メイド服\u001d0\u001c!足\u001d0\u001c*立っている\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c顔に向く腕\u001d0\u001c*顔に向く腕(左手)\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c!装飾\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c!胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c!胴体\u001d0\u001c*下にしている\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c!胴体\u001d0\u001c!足\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c!胴体\u001d0\u001c!足\u001d0\u001c*立っている\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c腕\u001d0\u001c左腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c腕\u001d0\u001c左腕\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c腕\u001d0\u001c右腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あおいちゃん\u001d0\u001c!胴体\u001d0\u001c腕\u001d0\u001c右腕\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c*顔に向く腕\u001d0\u001c*顔に向く腕(左手) のコピー\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!装飾\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0\u001c*下にしている\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0\u001c!足\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c!胴体\u001d0\u001c!足\u001d0\u001c*立っている\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!左腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!左腕\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!右腕\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c胴体\u001d0\u001c*あかねちゃん\u001d0\u001c腕\u001d0\u001c!右腕\u001d0\u001c*下\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あおいちゃん\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あおいちゃん\u001d0\u001c!もみあげ\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あおいちゃん\u001d0\u001c*ロング\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あかねちゃん\u001d0\u001c!もみあげ\u001d0",
+    "\u001c琴葉姉妹\u001d0\u001c!後ろ髪\u001d0\u001c*あかねちゃん\u001d0\u001c*ロング\u001d0"
+   ],
+   "IsHiddenWhenNoSpeech": false
+  },
+  "TachieItemVideoEffects": [],
+  "TachieDefaultFaceParameter": {
+   "$type": "YukkuriMovieMaker.Plugin.Tachie.Psd.PsdTachieFaceParameter, YukkuriMovieMaker.Plugin.Tachie.Psd",
+   "IsEnabled": false,
+   "FilePath": null,
+   "EnableLayers": [],
+   "EnableLayerPaths": [],
+   "EyeAnimation": "Default",
+   "MouthAnimation": "Default"
+  },
+  "TachieDefaultFaceEffects": [],
+  "AdditionalForegroundTemplateName": null,
+  "AdditionalBackgroundTemplateName": null,
+  "VoiceItemLength": 300,
+  "TachieItemLength": 300,
+  "VoiceItemKeyFrames": {
+   "Frames": [],
+   "Count": 0
+  },
+  "TachieItemKeyFrames": {
+   "Frames": [],
+   "Count": 0
+  }
+ }
+]

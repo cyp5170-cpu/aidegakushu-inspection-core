@@ -1,0 +1,368 @@
+{
+ "$type": "YukkuriMovieMaker.Project.Items.VideoItem, YukkuriMovieMaker",
+ "IsWaveformEnabled": false,
+ "FilePath": "%USERPROFILE%\\OneDrive\\デスクトップ\\projects\\琴葉茜葵_設定学習データ\\90_制作素材\\汎用背景_動画ループ\\g1_猫スマホ_金の糸_v1.mp4",
+ "AudioTrackIndex": 0,
+ "Volume": {
+  "Values": [
+   {
+    "Value": 0.0
+   }
+  ],
+  "Span": 0.0,
+  "AnimationType": "なし",
+  "Bezier": {
+   "Points": [
+    {
+     "Point": {
+      "X": 0.0,
+      "Y": 0.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    },
+    {
+     "Point": {
+      "X": 1.0,
+      "Y": 1.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    }
+   ],
+   "IsQuadratic": false
+  }
+ },
+ "Pan": {
+  "Values": [
+   {
+    "Value": 0.0
+   }
+  ],
+  "Span": 0.0,
+  "AnimationType": "なし",
+  "Bezier": {
+   "Points": [
+    {
+     "Point": {
+      "X": 0.0,
+      "Y": 0.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    },
+    {
+     "Point": {
+      "X": 1.0,
+      "Y": 1.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    }
+   ],
+   "IsQuadratic": false
+  }
+ },
+ "PlaybackRate": 100.0,
+ "ContentOffset": "00:00:00",
+ "IsLooped": true,
+ "EchoIsEnabled": false,
+ "EchoInterval": 0.1,
+ "EchoAttenuation": 40.0,
+ "AudioEffects": [],
+ "X": {
+  "Values": [
+   {
+    "Value": 0.0
+   }
+  ],
+  "Span": 0.0,
+  "AnimationType": "なし",
+  "Bezier": {
+   "Points": [
+    {
+     "Point": {
+      "X": 0.0,
+      "Y": 0.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    },
+    {
+     "Point": {
+      "X": 1.0,
+      "Y": 1.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    }
+   ],
+   "IsQuadratic": false
+  }
+ },
+ "Y": {
+  "Values": [
+   {
+    "Value": 0.0
+   }
+  ],
+  "Span": 0.0,
+  "AnimationType": "なし",
+  "Bezier": {
+   "Points": [
+    {
+     "Point": {
+      "X": 0.0,
+      "Y": 0.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    },
+    {
+     "Point": {
+      "X": 1.0,
+      "Y": 1.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    }
+   ],
+   "IsQuadratic": false
+  }
+ },
+ "Z": {
+  "Values": [
+   {
+    "Value": 0.0
+   }
+  ],
+  "Span": 0.0,
+  "AnimationType": "なし",
+  "Bezier": {
+   "Points": [
+    {
+     "Point": {
+      "X": 0.0,
+      "Y": 0.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    },
+    {
+     "Point": {
+      "X": 1.0,
+      "Y": 1.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    }
+   ],
+   "IsQuadratic": false
+  }
+ },
+ "Opacity": {
+  "Values": [
+   {
+    "Value": 100.0
+   }
+  ],
+  "Span": 0.0,
+  "AnimationType": "なし",
+  "Bezier": {
+   "Points": [
+    {
+     "Point": {
+      "X": 0.0,
+      "Y": 0.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    },
+    {
+     "Point": {
+      "X": 1.0,
+      "Y": 1.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    }
+   ],
+   "IsQuadratic": false
+  }
+ },
+ "Zoom": {
+  "Values": [
+   {
+    "Value": 100.0
+   }
+  ],
+  "Span": 0.0,
+  "AnimationType": "なし",
+  "Bezier": {
+   "Points": [
+    {
+     "Point": {
+      "X": 0.0,
+      "Y": 0.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    },
+    {
+     "Point": {
+      "X": 1.0,
+      "Y": 1.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    }
+   ],
+   "IsQuadratic": false
+  }
+ },
+ "Rotation": {
+  "Values": [
+   {
+    "Value": 0.0
+   }
+  ],
+  "Span": 0.0,
+  "AnimationType": "なし",
+  "Bezier": {
+   "Points": [
+    {
+     "Point": {
+      "X": 0.0,
+      "Y": 0.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    },
+    {
+     "Point": {
+      "X": 1.0,
+      "Y": 1.0
+     },
+     "ControlPoint1": {
+      "X": -0.3,
+      "Y": -0.3
+     },
+     "ControlPoint2": {
+      "X": 0.3,
+      "Y": 0.3
+     }
+    }
+   ],
+   "IsQuadratic": false
+  }
+ },
+ "FadeIn": 0.0,
+ "FadeOut": 0.0,
+ "Blend": "Normal",
+ "IsInverted": false,
+ "IsClippingWithObjectAbove": false,
+ "IsAlwaysOnTop": false,
+ "IsZOrderEnabled": false,
+ "VideoEffects": [],
+ "Group": 0,
+ "Frame": 0,
+ "Layer": 0,
+ "KeyFrames": {
+  "Frames": [],
+  "Count": 0
+ },
+ "Length": 3666,
+ "Remark": "背景:導入:猫スマホ(動画ループ)",
+ "IsLocked": false,
+ "IsHidden": false
+}

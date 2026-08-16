@@ -1,0 +1,14 @@
+{
+  "_doc": "画像(image_keyword)が描く機構と台詞(text)の機構が矛盾していないかを確定論で検知する。育てる対照表。2026-08-15新設(ep02 id12=『NISシャッターを閉じる絵』×『有機化停止の台詞』の実事故から)。ルール=image_anyのどれかがimage_keywordに含まれ、text_anyのどれかがtextに含まれ、text_notを含まない → level。",
+  "rules": [
+    {
+      "class": "A-8 画像×台詞の機構不整合(取り込み阻害の絵×有機化の台詞)",
+      "level": "FAIL",
+      "image_any": ["door_shut", "door_close", "shutter", "nis_shutter", "gate_close", "intake_block", "uptake_block", "influx_stop", "door_closed", "shut_door"],
+      "text_any": ["有機化", "加工ライン", "組み立て", "ホルモンに加工", "ホルモン合成", "合成を止め", "organification"],
+      "text_not": ["取り込みも止め", "取り込みを止め"],
+      "message": "画像は『取り込み/入口を閉じる(NISシャッター等)』を描くのに、台詞は『有機化(ホルモン合成/加工)の停止』を語っている＝機構が矛盾。Wolff-Chaikoffは取り込み阻害ではなく有機化の急性阻害。画像を『加工ライン(有機化)停止』の描写へ差し替えること。",
+      "reason": "サイレントな絵×言葉のズレ。textを直しても旧機構の画像が残る事故(ep02 id12実発生)を確定論で強制検知。"
+    }
+  ]
+}

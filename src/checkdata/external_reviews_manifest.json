@@ -1,0 +1,86 @@
+{
+  "files": {
+    "src/check_system.py": {
+      "model": "",
+      "review_record": "",
+      "review_record_sha256": "",
+      "reviewed_at": "",
+      "sha256": "dd5b0b6fdb77fb2feb6d702a6c92d2fad3bbe28018b86b58cf8448158b007f39",
+      "verdict": "UNREVIEWED"
+    },
+    "src/env_boot.py": {
+      "model": "GPT-5.6 Sol / Gemini Pro",
+      "review_record": "src/checkdata/external_reviews/2026-08-15_env_boot_BOTH_GO.md",
+      "review_record_sha256": "199beb9392731bb7cdd03a65dcb8825af222df312bc150772574f86f88414737",
+      "reviewed_at": "2026-08-16",
+      "sha256": "cb5a48b50715ad166c76f29ad7a421bc3950affb52616cd97aba6478471063b8",
+      "verdict": "GO"
+    },
+    "src/external_review_gate.py": {
+      "model": "",
+      "review_record": "",
+      "review_record_sha256": "",
+      "reviewed_at": "",
+      "sha256": "8703c724571fbe18a8281ecf1526dae17ef9e19a64040ba9b548d8a653538094",
+      "verdict": "UNREVIEWED"
+    },
+    "src/figlint.py": {
+      "model": "",
+      "review_record": "",
+      "review_record_sha256": "",
+      "reviewed_at": "",
+      "sha256": "40a8f54a33d312d7f4766d8f099d6737318fec6e3f05233b1c8c96cbf7eefe4b",
+      "verdict": "UNREVIEWED"
+    },
+    "src/policy_gate.py": {
+      "model": "",
+      "review_record": "",
+      "review_record_sha256": "",
+      "reviewed_at": "",
+      "sha256": "c1029e1b656f539b2d8b405016e26fec4a9dd04ad3be6f0eaffd271e05d5c9aa",
+      "verdict": "UNREVIEWED"
+    },
+    "src/pre_submit_gate.py": {
+      "model": "",
+      "review_record": "",
+      "review_record_sha256": "",
+      "reviewed_at": "",
+      "sha256": "1b8c14996fa3c729fd77df7cbd76f10e906d9c74139e69d3b832b010c585a846",
+      "verdict": "UNREVIEWED"
+    },
+    "src/run_preship_qa.py": {
+      "model": "",
+      "review_record": "",
+      "review_record_sha256": "",
+      "reviewed_at": "",
+      "sha256": "bc4cf28117da771acb61361058de0145963021ef9a530227949b0df86e0c9077",
+      "verdict": "UNREVIEWED"
+    },
+    "src/ship.py": {
+      "model": "",
+      "review_record": "",
+      "review_record_sha256": "",
+      "reviewed_at": "",
+      "sha256": "b732ec4cdbd0352389d57b43d8e7b744248c477ea33819dc1726ec3f13261d14",
+      "verdict": "UNREVIEWED"
+    },
+    "src/verify_assets.py": {
+      "model": "",
+      "review_record": "",
+      "review_record_sha256": "",
+      "reviewed_at": "",
+      "sha256": "a4af16dcd5d39315e342bab16074667f9aca8ff8dbb70a161d970378ca5ef986",
+      "verdict": "UNREVIEWED"
+    },
+    "src/verify_core.py": {
+      "model": "",
+      "review_record": "",
+      "review_record_sha256": "",
+      "reviewed_at": "",
+      "sha256": "ec24c62a183269661ee5b8cf8857dc694b11753a5a67ad163687f5fb4163fb4c",
+      "verdict": "UNREVIEWED"
+    }
+  },
+  "note": "署名対象。CI(GitHub Actions)が公開鍵で署名検証し、各critical fileのsha256一致＋verdict=GOを必須化する。gate自身(external_review_gate.py)のshaも含むので、gate改ざん(return True挿入等)はCIで不一致→ブロック。",
+  "version": "erg-manifest-v1"
+}

@@ -1,0 +1,11 @@
+# 改行はLFで固定（プラットフォーム間でCRLF変換されると、署名対象(.asc/manifest)の中身が変わり
+# gpg署名が壊れる／検品コアのSHA照合がブレる。ubuntuのCIとWindowsローカルで一致させる）。
+* text=auto eol=lf
+
+# gpg署名(detached)は"中身のバイト列そのもの"に対する署名＝一切変換しない（binary扱い）。
+*.asc binary
+
+# 画像等のバイナリ（現状src/checkdataには基本無いが保険）
+*.png binary
+*.jpg binary
+*.gz binary
